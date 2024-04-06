@@ -11,6 +11,16 @@
 
 #define DEBOUNCE 20
 
+#define MK_VARIANT MK_TYPE_KINETIC
+
+//peppy's mouse settings https://github.com/peppy/qmk_firmware/blob/ppy_kinetic/keyboards/planck/keymaps/ppy/config.h
+#define MK_KINETIC_MOUSE_MAXS 72
+#define MK_KINETIC_MOUSE_ACCN 22
+#define MK_KINETIC_MOUSE_FRIC 14
+#define MK_KINETIC_MOUSE_DRAG 18
+
+#define MK_KINETIC_WHEEL_MAXS 1
+#define MK_KINETIC_WHEEL_ACCN 16
 
 //rgb stuff
 #undef RGBLIGHT_ANIMATIONS
